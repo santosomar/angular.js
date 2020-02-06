@@ -1,0 +1,426 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.14.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:debug:20170905':
+    - firebase-admin > @google-cloud/firestore > @google-cloud/common-grpc > grpc > node-pre-gyp > tar-pack > debug:
+        patched: '2020-02-06T01:48:25.762Z'
+    - firebase-admin > @google-cloud/firestore > google-gax > grpc > node-pre-gyp > tar-pack > debug:
+        patched: '2020-02-06T01:48:25.762Z'
+  'npm:extend:20180424':
+    - firebase-admin > @google-cloud/storage > extend:
+        patched: '2020-02-06T01:48:25.762Z'
+    - firebase-admin > @google-cloud/firestore > extend:
+        patched: '2020-02-06T01:48:25.762Z'
+    - firebase-admin > @google-cloud/firestore > google-gax > extend:
+        patched: '2020-02-06T01:48:25.762Z'
+    - firebase-admin > @google-cloud/firestore > @google-cloud/common-grpc > extend:
+        patched: '2020-02-06T01:48:25.762Z'
+    - firebase-admin > @google-cloud/storage > @google-cloud/common > extend:
+        patched: '2020-02-06T01:48:25.762Z'
+    - firebase-admin > @google-cloud/firestore > @google-cloud/common > extend:
+        patched: '2020-02-06T01:48:25.762Z'
+    - firebase-admin > @google-cloud/storage > request > extend:
+        patched: '2020-02-06T01:48:25.762Z'
+    - firebase-admin > @google-cloud/firestore > @google-cloud/common-grpc > @google-cloud/common > extend:
+        patched: '2020-02-06T01:48:25.762Z'
+    - firebase-admin > @google-cloud/storage > @google-cloud/common > request > extend:
+        patched: '2020-02-06T01:48:25.762Z'
+    - firebase-admin > @google-cloud/storage > gcs-resumable-upload > request > extend:
+        patched: '2020-02-06T01:48:25.762Z'
+    - firebase-admin > @google-cloud/firestore > @google-cloud/common > request > extend:
+        patched: '2020-02-06T01:48:25.762Z'
+    - firebase-admin > @google-cloud/firestore > @google-cloud/common-grpc > retry-request > request > extend:
+        patched: '2020-02-06T01:48:25.762Z'
+    - firebase-admin > @google-cloud/firestore > @google-cloud/common > retry-request > request > extend:
+        patched: '2020-02-06T01:48:25.762Z'
+    - firebase-admin > @google-cloud/storage > @google-cloud/common > retry-request > request > extend:
+        patched: '2020-02-06T01:48:25.762Z'
+    - firebase-admin > @google-cloud/firestore > google-gax > google-auto-auth > gcp-metadata > extend:
+        patched: '2020-02-06T01:48:25.762Z'
+    - firebase-admin > @google-cloud/firestore > @google-cloud/common > google-auto-auth > request > extend:
+        patched: '2020-02-06T01:48:25.762Z'
+    - firebase-admin > @google-cloud/storage > @google-cloud/common > google-auto-auth > request > extend:
+        patched: '2020-02-06T01:48:25.762Z'
+    - firebase-admin > @google-cloud/storage > gcs-resumable-upload > google-auto-auth > gcp-metadata > extend:
+        patched: '2020-02-06T01:48:25.762Z'
+    - firebase-admin > @google-cloud/firestore > google-gax > google-auto-auth > request > extend:
+        patched: '2020-02-06T01:48:25.762Z'
+    - firebase-admin > @google-cloud/firestore > @google-cloud/common-grpc > @google-cloud/common > request > extend:
+        patched: '2020-02-06T01:48:25.762Z'
+    - firebase-admin > @google-cloud/storage > @google-cloud/common > google-auto-auth > gcp-metadata > extend:
+        patched: '2020-02-06T01:48:25.762Z'
+    - firebase-admin > @google-cloud/storage > gcs-resumable-upload > google-auto-auth > request > extend:
+        patched: '2020-02-06T01:48:25.762Z'
+    - firebase-admin > @google-cloud/firestore > @google-cloud/common > google-auto-auth > gcp-metadata > extend:
+        patched: '2020-02-06T01:48:25.762Z'
+    - firebase-admin > @google-cloud/firestore > @google-cloud/common > google-auto-auth > google-auth-library > request > extend:
+        patched: '2020-02-06T01:48:25.762Z'
+    - firebase-admin > @google-cloud/storage > gcs-resumable-upload > google-auto-auth > google-auth-library > request > extend:
+        patched: '2020-02-06T01:48:25.762Z'
+    - firebase-admin > @google-cloud/firestore > @google-cloud/common-grpc > @google-cloud/common > google-auto-auth > request > extend:
+        patched: '2020-02-06T01:48:25.762Z'
+    - firebase-admin > @google-cloud/firestore > @google-cloud/common-grpc > @google-cloud/common > retry-request > request > extend:
+        patched: '2020-02-06T01:48:25.762Z'
+    - firebase-admin > @google-cloud/firestore > @google-cloud/common-grpc > @google-cloud/common > google-auto-auth > gcp-metadata > extend:
+        patched: '2020-02-06T01:48:25.762Z'
+    - firebase-admin > @google-cloud/firestore > google-gax > google-auto-auth > google-auth-library > request > extend:
+        patched: '2020-02-06T01:48:25.762Z'
+    - firebase-admin > @google-cloud/firestore > @google-cloud/common-grpc > grpc > node-pre-gyp > request > extend:
+        patched: '2020-02-06T01:48:25.762Z'
+    - firebase-admin > @google-cloud/firestore > google-gax > grpc > node-pre-gyp > request > extend:
+        patched: '2020-02-06T01:48:25.762Z'
+    - firebase-admin > @google-cloud/storage > @google-cloud/common > google-auto-auth > google-auth-library > request > extend:
+        patched: '2020-02-06T01:48:25.762Z'
+    - firebase-admin > @google-cloud/firestore > @google-cloud/common > google-auto-auth > google-auth-library > gtoken > request > extend:
+        patched: '2020-02-06T01:48:25.762Z'
+    - firebase-admin > @google-cloud/firestore > google-gax > google-auto-auth > gcp-metadata > retry-request > request > extend:
+        patched: '2020-02-06T01:48:25.762Z'
+    - firebase-admin > @google-cloud/firestore > google-gax > google-auto-auth > google-auth-library > gtoken > request > extend:
+        patched: '2020-02-06T01:48:25.762Z'
+    - firebase-admin > @google-cloud/firestore > @google-cloud/common > google-auto-auth > gcp-metadata > retry-request > request > extend:
+        patched: '2020-02-06T01:48:25.762Z'
+    - firebase-admin > @google-cloud/storage > gcs-resumable-upload > google-auto-auth > gcp-metadata > retry-request > request > extend:
+        patched: '2020-02-06T01:48:25.762Z'
+    - firebase-admin > @google-cloud/storage > gcs-resumable-upload > google-auto-auth > google-auth-library > gtoken > request > extend:
+        patched: '2020-02-06T01:48:25.762Z'
+    - firebase-admin > @google-cloud/firestore > @google-cloud/common-grpc > @google-cloud/common > google-auto-auth > google-auth-library > request > extend:
+        patched: '2020-02-06T01:48:25.762Z'
+    - firebase-admin > @google-cloud/storage > @google-cloud/common > google-auto-auth > google-auth-library > gtoken > request > extend:
+        patched: '2020-02-06T01:48:25.762Z'
+    - firebase-admin > @google-cloud/storage > @google-cloud/common > google-auto-auth > gcp-metadata > retry-request > request > extend:
+        patched: '2020-02-06T01:48:25.762Z'
+    - firebase-admin > @google-cloud/firestore > @google-cloud/common-grpc > @google-cloud/common > google-auto-auth > gcp-metadata > retry-request > request > extend:
+        patched: '2020-02-06T01:48:25.762Z'
+    - firebase-admin > @google-cloud/firestore > @google-cloud/common-grpc > @google-cloud/common > google-auto-auth > google-auth-library > gtoken > request > extend:
+        patched: '2020-02-06T01:48:25.762Z'
+  'npm:hawk:20160119':
+    - firebase-admin > @google-cloud/firestore > @google-cloud/common > log-driver > codecov.io > request > hawk:
+        patched: '2020-02-06T01:48:25.762Z'
+    - firebase-admin > @google-cloud/storage > @google-cloud/common > log-driver > codecov.io > request > hawk:
+        patched: '2020-02-06T01:48:25.762Z'
+  'npm:hoek:20180212':
+    - firebase-admin > @google-cloud/storage > request > hawk > hoek:
+        patched: '2020-02-06T01:48:25.762Z'
+    - firebase-admin > @google-cloud/storage > request > hawk > sntp > hoek:
+        patched: '2020-02-06T01:48:25.762Z'
+    - firebase-admin > @google-cloud/storage > gcs-resumable-upload > request > hawk > hoek:
+        patched: '2020-02-06T01:48:25.762Z'
+    - firebase-admin > @google-cloud/storage > request > hawk > boom > hoek:
+        patched: '2020-02-06T01:48:25.762Z'
+    - firebase-admin > @google-cloud/storage > @google-cloud/common > request > hawk > hoek:
+        patched: '2020-02-06T01:48:25.762Z'
+    - firebase-admin > @google-cloud/firestore > @google-cloud/common > request > hawk > hoek:
+        patched: '2020-02-06T01:48:25.762Z'
+    - firebase-admin > @google-cloud/firestore > @google-cloud/common > request > hawk > boom > hoek:
+        patched: '2020-02-06T01:48:25.762Z'
+    - firebase-admin > @google-cloud/storage > @google-cloud/common > request > hawk > boom > hoek:
+        patched: '2020-02-06T01:48:25.762Z'
+    - firebase-admin > @google-cloud/storage > request > hawk > cryptiles > boom > hoek:
+        patched: '2020-02-06T01:48:25.762Z'
+    - firebase-admin > @google-cloud/storage > gcs-resumable-upload > request > hawk > sntp > hoek:
+        patched: '2020-02-06T01:48:25.762Z'
+    - firebase-admin > @google-cloud/firestore > @google-cloud/common-grpc > retry-request > request > hawk > hoek:
+        patched: '2020-02-06T01:48:25.762Z'
+    - firebase-admin > @google-cloud/storage > gcs-resumable-upload > google-auto-auth > request > hawk > hoek:
+        patched: '2020-02-06T01:48:25.762Z'
+    - firebase-admin > @google-cloud/firestore > @google-cloud/common-grpc > @google-cloud/common > request > hawk > hoek:
+        patched: '2020-02-06T01:48:25.762Z'
+    - firebase-admin > @google-cloud/firestore > google-gax > google-auto-auth > request > hawk > hoek:
+        patched: '2020-02-06T01:48:25.762Z'
+    - firebase-admin > @google-cloud/storage > @google-cloud/common > retry-request > request > hawk > hoek:
+        patched: '2020-02-06T01:48:25.762Z'
+    - firebase-admin > @google-cloud/firestore > @google-cloud/common > retry-request > request > hawk > hoek:
+        patched: '2020-02-06T01:48:25.762Z'
+    - firebase-admin > @google-cloud/storage > @google-cloud/common > google-auto-auth > request > hawk > hoek:
+        patched: '2020-02-06T01:48:25.762Z'
+    - firebase-admin > @google-cloud/firestore > @google-cloud/common > google-auto-auth > request > hawk > hoek:
+        patched: '2020-02-06T01:48:25.762Z'
+    - firebase-admin > @google-cloud/storage > @google-cloud/common > request > hawk > sntp > hoek:
+        patched: '2020-02-06T01:48:25.762Z'
+    - firebase-admin > @google-cloud/firestore > @google-cloud/common > request > hawk > sntp > hoek:
+        patched: '2020-02-06T01:48:25.762Z'
+    - firebase-admin > @google-cloud/storage > gcs-resumable-upload > request > hawk > boom > hoek:
+        patched: '2020-02-06T01:48:25.762Z'
+    - firebase-admin > @google-cloud/storage > gcs-resumable-upload > google-auto-auth > google-auth-library > request > hawk > hoek:
+        patched: '2020-02-06T01:48:25.762Z'
+    - firebase-admin > @google-cloud/firestore > @google-cloud/common > request > hawk > cryptiles > boom > hoek:
+        patched: '2020-02-06T01:48:25.762Z'
+    - firebase-admin > @google-cloud/firestore > @google-cloud/common-grpc > @google-cloud/common > retry-request > request > hawk > hoek:
+        patched: '2020-02-06T01:48:25.762Z'
+    - firebase-admin > @google-cloud/storage > gcs-resumable-upload > google-auto-auth > request > hawk > sntp > hoek:
+        patched: '2020-02-06T01:48:25.762Z'
+    - firebase-admin > @google-cloud/firestore > @google-cloud/common-grpc > @google-cloud/common > request > hawk > sntp > hoek:
+        patched: '2020-02-06T01:48:25.762Z'
+    - firebase-admin > @google-cloud/firestore > @google-cloud/common-grpc > @google-cloud/common > google-auto-auth > request > hawk > hoek:
+        patched: '2020-02-06T01:48:25.762Z'
+    - firebase-admin > @google-cloud/storage > @google-cloud/common > retry-request > request > hawk > boom > hoek:
+        patched: '2020-02-06T01:48:25.762Z'
+    - firebase-admin > @google-cloud/firestore > google-gax > google-auto-auth > request > hawk > sntp > hoek:
+        patched: '2020-02-06T01:48:25.762Z'
+    - firebase-admin > @google-cloud/firestore > google-gax > google-auto-auth > request > hawk > boom > hoek:
+        patched: '2020-02-06T01:48:25.762Z'
+    - firebase-admin > @google-cloud/firestore > @google-cloud/common-grpc > @google-cloud/common > request > hawk > boom > hoek:
+        patched: '2020-02-06T01:48:25.762Z'
+    - firebase-admin > @google-cloud/firestore > @google-cloud/common-grpc > retry-request > request > hawk > boom > hoek:
+        patched: '2020-02-06T01:48:25.762Z'
+    - firebase-admin > @google-cloud/firestore > google-gax > google-auto-auth > google-auth-library > request > hawk > hoek:
+        patched: '2020-02-06T01:48:25.762Z'
+    - firebase-admin > @google-cloud/storage > gcs-resumable-upload > google-auto-auth > request > hawk > boom > hoek:
+        patched: '2020-02-06T01:48:25.762Z'
+    - firebase-admin > @google-cloud/storage > @google-cloud/common > google-auto-auth > google-auth-library > request > hawk > hoek:
+        patched: '2020-02-06T01:48:25.762Z'
+    - firebase-admin > @google-cloud/firestore > @google-cloud/common > google-auto-auth > request > hawk > boom > hoek:
+        patched: '2020-02-06T01:48:25.762Z'
+    - firebase-admin > @google-cloud/storage > @google-cloud/common > google-auto-auth > request > hawk > sntp > hoek:
+        patched: '2020-02-06T01:48:25.762Z'
+    - firebase-admin > @google-cloud/firestore > @google-cloud/common > retry-request > request > hawk > boom > hoek:
+        patched: '2020-02-06T01:48:25.762Z'
+    - firebase-admin > @google-cloud/storage > @google-cloud/common > request > hawk > cryptiles > boom > hoek:
+        patched: '2020-02-06T01:48:25.762Z'
+    - firebase-admin > @google-cloud/firestore > @google-cloud/common > google-auto-auth > request > hawk > sntp > hoek:
+        patched: '2020-02-06T01:48:25.762Z'
+    - firebase-admin > @google-cloud/firestore > @google-cloud/common-grpc > retry-request > request > hawk > sntp > hoek:
+        patched: '2020-02-06T01:48:25.762Z'
+    - firebase-admin > @google-cloud/firestore > @google-cloud/common > google-auto-auth > google-auth-library > request > hawk > hoek:
+        patched: '2020-02-06T01:48:25.762Z'
+    - firebase-admin > @google-cloud/storage > gcs-resumable-upload > request > hawk > cryptiles > boom > hoek:
+        patched: '2020-02-06T01:48:25.762Z'
+    - firebase-admin > @google-cloud/storage > @google-cloud/common > google-auto-auth > request > hawk > boom > hoek:
+        patched: '2020-02-06T01:48:25.762Z'
+    - firebase-admin > @google-cloud/firestore > @google-cloud/common > retry-request > request > hawk > sntp > hoek:
+        patched: '2020-02-06T01:48:25.762Z'
+    - firebase-admin > @google-cloud/storage > @google-cloud/common > retry-request > request > hawk > sntp > hoek:
+        patched: '2020-02-06T01:48:25.762Z'
+    - firebase-admin > @google-cloud/storage > gcs-resumable-upload > google-auto-auth > google-auth-library > request > hawk > sntp > hoek:
+        patched: '2020-02-06T01:48:25.762Z'
+    - firebase-admin > @google-cloud/storage > gcs-resumable-upload > google-auto-auth > request > hawk > cryptiles > boom > hoek:
+        patched: '2020-02-06T01:48:25.762Z'
+    - firebase-admin > @google-cloud/firestore > @google-cloud/common-grpc > @google-cloud/common > request > hawk > cryptiles > boom > hoek:
+        patched: '2020-02-06T01:48:25.762Z'
+    - firebase-admin > @google-cloud/storage > gcs-resumable-upload > google-auto-auth > google-auth-library > gtoken > request > hawk > hoek:
+        patched: '2020-02-06T01:48:25.762Z'
+    - firebase-admin > @google-cloud/firestore > @google-cloud/common > google-auto-auth > google-auth-library > request > hawk > sntp > hoek:
+        patched: '2020-02-06T01:48:25.762Z'
+    - firebase-admin > @google-cloud/storage > @google-cloud/common > google-auto-auth > google-auth-library > request > hawk > sntp > hoek:
+        patched: '2020-02-06T01:48:25.762Z'
+    - firebase-admin > @google-cloud/firestore > google-gax > google-auto-auth > google-auth-library > request > hawk > sntp > hoek:
+        patched: '2020-02-06T01:48:25.762Z'
+    - firebase-admin > @google-cloud/firestore > google-gax > google-auto-auth > request > hawk > cryptiles > boom > hoek:
+        patched: '2020-02-06T01:48:25.762Z'
+    - firebase-admin > @google-cloud/storage > @google-cloud/common > google-auto-auth > request > hawk > cryptiles > boom > hoek:
+        patched: '2020-02-06T01:48:25.762Z'
+    - firebase-admin > @google-cloud/firestore > @google-cloud/common > google-auto-auth > request > hawk > cryptiles > boom > hoek:
+        patched: '2020-02-06T01:48:25.762Z'
+    - firebase-admin > @google-cloud/firestore > @google-cloud/common-grpc > @google-cloud/common > google-auto-auth > google-auth-library > request > hawk > hoek:
+        patched: '2020-02-06T01:48:25.762Z'
+    - firebase-admin > @google-cloud/firestore > @google-cloud/common-grpc > @google-cloud/common > google-auto-auth > request > hawk > sntp > hoek:
+        patched: '2020-02-06T01:48:25.762Z'
+    - firebase-admin > @google-cloud/firestore > @google-cloud/common-grpc > retry-request > request > hawk > cryptiles > boom > hoek:
+        patched: '2020-02-06T01:48:25.762Z'
+    - firebase-admin > @google-cloud/storage > @google-cloud/common > retry-request > request > hawk > cryptiles > boom > hoek:
+        patched: '2020-02-06T01:48:25.762Z'
+    - firebase-admin > @google-cloud/firestore > @google-cloud/common-grpc > @google-cloud/common > retry-request > request > hawk > sntp > hoek:
+        patched: '2020-02-06T01:48:25.762Z'
+    - firebase-admin > @google-cloud/firestore > @google-cloud/common > retry-request > request > hawk > cryptiles > boom > hoek:
+        patched: '2020-02-06T01:48:25.762Z'
+    - firebase-admin > @google-cloud/storage > gcs-resumable-upload > google-auto-auth > google-auth-library > request > hawk > boom > hoek:
+        patched: '2020-02-06T01:48:25.762Z'
+    - firebase-admin > @google-cloud/firestore > @google-cloud/common-grpc > @google-cloud/common > google-auto-auth > request > hawk > boom > hoek:
+        patched: '2020-02-06T01:48:25.762Z'
+    - firebase-admin > @google-cloud/firestore > @google-cloud/common > google-auto-auth > gcp-metadata > retry-request > request > hawk > hoek:
+        patched: '2020-02-06T01:48:25.762Z'
+    - firebase-admin > @google-cloud/storage > @google-cloud/common > google-auto-auth > gcp-metadata > retry-request > request > hawk > hoek:
+        patched: '2020-02-06T01:48:25.762Z'
+    - firebase-admin > @google-cloud/storage > gcs-resumable-upload > google-auto-auth > gcp-metadata > retry-request > request > hawk > hoek:
+        patched: '2020-02-06T01:48:25.762Z'
+    - firebase-admin > @google-cloud/firestore > google-gax > google-auto-auth > google-auth-library > request > hawk > boom > hoek:
+        patched: '2020-02-06T01:48:25.762Z'
+    - firebase-admin > @google-cloud/storage > @google-cloud/common > google-auto-auth > google-auth-library > request > hawk > boom > hoek:
+        patched: '2020-02-06T01:48:25.762Z'
+    - firebase-admin > @google-cloud/firestore > google-gax > google-auto-auth > gcp-metadata > retry-request > request > hawk > hoek:
+        patched: '2020-02-06T01:48:25.762Z'
+    - firebase-admin > @google-cloud/firestore > @google-cloud/common > google-auto-auth > google-auth-library > request > hawk > boom > hoek:
+        patched: '2020-02-06T01:48:25.762Z'
+    - firebase-admin > @google-cloud/firestore > @google-cloud/common-grpc > @google-cloud/common > retry-request > request > hawk > boom > hoek:
+        patched: '2020-02-06T01:48:25.762Z'
+    - firebase-admin > @google-cloud/firestore > @google-cloud/common > google-auto-auth > google-auth-library > gtoken > request > hawk > hoek:
+        patched: '2020-02-06T01:48:25.762Z'
+    - firebase-admin > @google-cloud/storage > @google-cloud/common > google-auto-auth > google-auth-library > gtoken > request > hawk > hoek:
+        patched: '2020-02-06T01:48:25.762Z'
+    - firebase-admin > @google-cloud/firestore > google-gax > google-auto-auth > google-auth-library > gtoken > request > hawk > hoek:
+        patched: '2020-02-06T01:48:25.762Z'
+    - firebase-admin > @google-cloud/storage > gcs-resumable-upload > google-auto-auth > gcp-metadata > retry-request > request > hawk > boom > hoek:
+        patched: '2020-02-06T01:48:25.762Z'
+    - firebase-admin > @google-cloud/firestore > @google-cloud/common > google-auto-auth > gcp-metadata > retry-request > request > hawk > boom > hoek:
+        patched: '2020-02-06T01:48:25.762Z'
+    - firebase-admin > @google-cloud/storage > gcs-resumable-upload > google-auto-auth > google-auth-library > request > hawk > cryptiles > boom > hoek:
+        patched: '2020-02-06T01:48:25.762Z'
+    - firebase-admin > @google-cloud/firestore > @google-cloud/common-grpc > @google-cloud/common > google-auto-auth > google-auth-library > request > hawk > boom > hoek:
+        patched: '2020-02-06T01:48:25.762Z'
+    - firebase-admin > @google-cloud/firestore > @google-cloud/common > google-auto-auth > google-auth-library > gtoken > request > hawk > boom > hoek:
+        patched: '2020-02-06T01:48:25.762Z'
+    - firebase-admin > @google-cloud/firestore > @google-cloud/common > google-auto-auth > google-auth-library > request > hawk > cryptiles > boom > hoek:
+        patched: '2020-02-06T01:48:25.762Z'
+    - firebase-admin > @google-cloud/storage > @google-cloud/common > google-auto-auth > gcp-metadata > retry-request > request > hawk > boom > hoek:
+        patched: '2020-02-06T01:48:25.762Z'
+    - firebase-admin > @google-cloud/storage > @google-cloud/common > google-auto-auth > gcp-metadata > retry-request > request > hawk > sntp > hoek:
+        patched: '2020-02-06T01:48:25.762Z'
+    - firebase-admin > @google-cloud/storage > gcs-resumable-upload > google-auto-auth > gcp-metadata > retry-request > request > hawk > sntp > hoek:
+        patched: '2020-02-06T01:48:25.762Z'
+    - firebase-admin > @google-cloud/storage > @google-cloud/common > google-auto-auth > google-auth-library > request > hawk > cryptiles > boom > hoek:
+        patched: '2020-02-06T01:48:25.762Z'
+    - firebase-admin > @google-cloud/storage > @google-cloud/common > google-auto-auth > google-auth-library > gtoken > request > hawk > boom > hoek:
+        patched: '2020-02-06T01:48:25.762Z'
+    - firebase-admin > @google-cloud/firestore > google-gax > google-auto-auth > google-auth-library > request > hawk > cryptiles > boom > hoek:
+        patched: '2020-02-06T01:48:25.762Z'
+    - firebase-admin > @google-cloud/firestore > google-gax > google-auto-auth > gcp-metadata > retry-request > request > hawk > sntp > hoek:
+        patched: '2020-02-06T01:48:25.762Z'
+    - firebase-admin > @google-cloud/firestore > google-gax > google-auto-auth > gcp-metadata > retry-request > request > hawk > boom > hoek:
+        patched: '2020-02-06T01:48:25.762Z'
+    - firebase-admin > @google-cloud/firestore > @google-cloud/common-grpc > @google-cloud/common > retry-request > request > hawk > cryptiles > boom > hoek:
+        patched: '2020-02-06T01:48:25.762Z'
+    - firebase-admin > @google-cloud/firestore > @google-cloud/common > google-auto-auth > google-auth-library > gtoken > request > hawk > sntp > hoek:
+        patched: '2020-02-06T01:48:25.762Z'
+    - firebase-admin > @google-cloud/storage > @google-cloud/common > google-auto-auth > google-auth-library > gtoken > request > hawk > sntp > hoek:
+        patched: '2020-02-06T01:48:25.762Z'
+    - firebase-admin > @google-cloud/firestore > @google-cloud/common-grpc > @google-cloud/common > google-auto-auth > gcp-metadata > retry-request > request > hawk > hoek:
+        patched: '2020-02-06T01:48:25.762Z'
+    - firebase-admin > @google-cloud/firestore > google-gax > google-auto-auth > google-auth-library > gtoken > request > hawk > boom > hoek:
+        patched: '2020-02-06T01:48:25.762Z'
+    - firebase-admin > @google-cloud/firestore > google-gax > google-auto-auth > google-auth-library > gtoken > request > hawk > sntp > hoek:
+        patched: '2020-02-06T01:48:25.762Z'
+    - firebase-admin > @google-cloud/storage > gcs-resumable-upload > google-auto-auth > google-auth-library > gtoken > request > hawk > sntp > hoek:
+        patched: '2020-02-06T01:48:25.762Z'
+    - firebase-admin > @google-cloud/storage > gcs-resumable-upload > google-auto-auth > google-auth-library > gtoken > request > hawk > boom > hoek:
+        patched: '2020-02-06T01:48:25.762Z'
+    - firebase-admin > @google-cloud/firestore > @google-cloud/common-grpc > @google-cloud/common > google-auto-auth > request > hawk > cryptiles > boom > hoek:
+        patched: '2020-02-06T01:48:25.762Z'
+    - firebase-admin > @google-cloud/firestore > @google-cloud/common-grpc > @google-cloud/common > google-auto-auth > google-auth-library > gtoken > request > hawk > hoek:
+        patched: '2020-02-06T01:48:25.762Z'
+    - firebase-admin > @google-cloud/firestore > @google-cloud/common-grpc > @google-cloud/common > google-auto-auth > google-auth-library > request > hawk > sntp > hoek:
+        patched: '2020-02-06T01:48:25.762Z'
+    - firebase-admin > @google-cloud/firestore > @google-cloud/common > google-auto-auth > gcp-metadata > retry-request > request > hawk > sntp > hoek:
+        patched: '2020-02-06T01:48:25.762Z'
+    - firebase-admin > @google-cloud/firestore > @google-cloud/common-grpc > @google-cloud/common > google-auto-auth > google-auth-library > gtoken > request > hawk > sntp > hoek:
+        patched: '2020-02-06T01:48:25.762Z'
+    - firebase-admin > @google-cloud/firestore > @google-cloud/common-grpc > @google-cloud/common > google-auto-auth > google-auth-library > request > hawk > cryptiles > boom > hoek:
+        patched: '2020-02-06T01:48:25.762Z'
+    - firebase-admin > @google-cloud/storage > gcs-resumable-upload > google-auto-auth > google-auth-library > gtoken > request > hawk > cryptiles > boom > hoek:
+        patched: '2020-02-06T01:48:25.762Z'
+    - firebase-admin > @google-cloud/firestore > google-gax > google-auto-auth > google-auth-library > gtoken > request > hawk > cryptiles > boom > hoek:
+        patched: '2020-02-06T01:48:25.762Z'
+    - firebase-admin > @google-cloud/firestore > @google-cloud/common-grpc > @google-cloud/common > google-auto-auth > gcp-metadata > retry-request > request > hawk > boom > hoek:
+        patched: '2020-02-06T01:48:25.762Z'
+    - firebase-admin > @google-cloud/storage > @google-cloud/common > google-auto-auth > google-auth-library > gtoken > request > hawk > cryptiles > boom > hoek:
+        patched: '2020-02-06T01:48:25.762Z'
+    - firebase-admin > @google-cloud/firestore > @google-cloud/common > google-auto-auth > google-auth-library > gtoken > request > hawk > cryptiles > boom > hoek:
+        patched: '2020-02-06T01:48:25.762Z'
+    - firebase-admin > @google-cloud/firestore > @google-cloud/common-grpc > @google-cloud/common > google-auto-auth > gcp-metadata > retry-request > request > hawk > sntp > hoek:
+        patched: '2020-02-06T01:48:25.762Z'
+    - firebase-admin > @google-cloud/firestore > @google-cloud/common-grpc > @google-cloud/common > google-auto-auth > google-auth-library > gtoken > request > hawk > boom > hoek:
+        patched: '2020-02-06T01:48:25.762Z'
+    - firebase-admin > @google-cloud/storage > gcs-resumable-upload > google-auto-auth > gcp-metadata > retry-request > request > hawk > cryptiles > boom > hoek:
+        patched: '2020-02-06T01:48:25.762Z'
+    - firebase-admin > @google-cloud/storage > @google-cloud/common > google-auto-auth > gcp-metadata > retry-request > request > hawk > cryptiles > boom > hoek:
+        patched: '2020-02-06T01:48:25.762Z'
+    - firebase-admin > @google-cloud/firestore > @google-cloud/common > google-auto-auth > gcp-metadata > retry-request > request > hawk > cryptiles > boom > hoek:
+        patched: '2020-02-06T01:48:25.762Z'
+    - firebase-admin > @google-cloud/firestore > google-gax > google-auto-auth > gcp-metadata > retry-request > request > hawk > cryptiles > boom > hoek:
+        patched: '2020-02-06T01:48:25.762Z'
+    - firebase-admin > @google-cloud/firestore > @google-cloud/common-grpc > @google-cloud/common > google-auto-auth > gcp-metadata > retry-request > request > hawk > cryptiles > boom > hoek:
+        patched: '2020-02-06T01:48:25.762Z'
+    - firebase-admin > @google-cloud/firestore > @google-cloud/common-grpc > @google-cloud/common > google-auto-auth > google-auth-library > gtoken > request > hawk > cryptiles > boom > hoek:
+        patched: '2020-02-06T01:48:25.762Z'
+    - firebase-functions > jsonwebtoken > joi > hoek:
+        patched: '2020-02-06T01:48:25.762Z'
+    - firebase-functions > jsonwebtoken > joi > topo > hoek:
+        patched: '2020-02-06T01:48:25.762Z'
+  'npm:http-signature:20150122':
+    - firebase-admin > @google-cloud/firestore > @google-cloud/common > log-driver > codecov.io > request > http-signature:
+        patched: '2020-02-06T01:48:25.762Z'
+    - firebase-admin > @google-cloud/storage > @google-cloud/common > log-driver > codecov.io > request > http-signature:
+        patched: '2020-02-06T01:48:25.762Z'
+  'npm:mime:20170907':
+    - firebase-admin > @google-cloud/firestore > @google-cloud/common > log-driver > codecov.io > request > form-data > mime:
+        patched: '2020-02-06T01:48:25.762Z'
+    - firebase-admin > @google-cloud/storage > @google-cloud/common > log-driver > codecov.io > request > form-data > mime:
+        patched: '2020-02-06T01:48:25.762Z'
+  'npm:request:20160119':
+    - firebase-admin > @google-cloud/firestore > @google-cloud/common > log-driver > codecov.io > request:
+        patched: '2020-02-06T01:48:25.762Z'
+    - firebase-admin > @google-cloud/storage > @google-cloud/common > log-driver > codecov.io > request:
+        patched: '2020-02-06T01:48:25.762Z'
+  'npm:stringstream:20180511':
+    - firebase-admin > @google-cloud/storage > request > stringstream:
+        patched: '2020-02-06T01:48:25.762Z'
+    - firebase-admin > @google-cloud/storage > @google-cloud/common > request > stringstream:
+        patched: '2020-02-06T01:48:25.762Z'
+    - firebase-admin > @google-cloud/storage > gcs-resumable-upload > request > stringstream:
+        patched: '2020-02-06T01:48:25.762Z'
+    - firebase-admin > @google-cloud/firestore > @google-cloud/common > request > stringstream:
+        patched: '2020-02-06T01:48:25.762Z'
+    - firebase-admin > @google-cloud/firestore > @google-cloud/common > retry-request > request > stringstream:
+        patched: '2020-02-06T01:48:25.762Z'
+    - firebase-admin > @google-cloud/firestore > @google-cloud/common > google-auto-auth > request > stringstream:
+        patched: '2020-02-06T01:48:25.762Z'
+    - firebase-admin > @google-cloud/storage > @google-cloud/common > retry-request > request > stringstream:
+        patched: '2020-02-06T01:48:25.762Z'
+    - firebase-admin > @google-cloud/firestore > google-gax > google-auto-auth > request > stringstream:
+        patched: '2020-02-06T01:48:25.762Z'
+    - firebase-admin > @google-cloud/firestore > @google-cloud/common-grpc > @google-cloud/common > request > stringstream:
+        patched: '2020-02-06T01:48:25.762Z'
+    - firebase-admin > @google-cloud/storage > gcs-resumable-upload > google-auto-auth > request > stringstream:
+        patched: '2020-02-06T01:48:25.762Z'
+    - firebase-admin > @google-cloud/firestore > @google-cloud/common-grpc > retry-request > request > stringstream:
+        patched: '2020-02-06T01:48:25.762Z'
+    - firebase-admin > @google-cloud/storage > @google-cloud/common > google-auto-auth > request > stringstream:
+        patched: '2020-02-06T01:48:25.762Z'
+    - firebase-admin > @google-cloud/firestore > google-gax > grpc > node-pre-gyp > request > stringstream:
+        patched: '2020-02-06T01:48:25.762Z'
+    - firebase-admin > @google-cloud/storage > @google-cloud/common > log-driver > codecov.io > request > stringstream:
+        patched: '2020-02-06T01:48:25.762Z'
+    - firebase-admin > @google-cloud/firestore > @google-cloud/common-grpc > @google-cloud/common > google-auto-auth > request > stringstream:
+        patched: '2020-02-06T01:48:25.762Z'
+    - firebase-admin > @google-cloud/firestore > @google-cloud/common > google-auto-auth > google-auth-library > request > stringstream:
+        patched: '2020-02-06T01:48:25.762Z'
+    - firebase-admin > @google-cloud/storage > @google-cloud/common > google-auto-auth > google-auth-library > request > stringstream:
+        patched: '2020-02-06T01:48:25.762Z'
+    - firebase-admin > @google-cloud/storage > gcs-resumable-upload > google-auto-auth > google-auth-library > request > stringstream:
+        patched: '2020-02-06T01:48:25.762Z'
+    - firebase-admin > @google-cloud/firestore > google-gax > google-auto-auth > google-auth-library > request > stringstream:
+        patched: '2020-02-06T01:48:25.762Z'
+    - firebase-admin > @google-cloud/firestore > @google-cloud/common-grpc > grpc > node-pre-gyp > request > stringstream:
+        patched: '2020-02-06T01:48:25.762Z'
+    - firebase-admin > @google-cloud/firestore > @google-cloud/common-grpc > @google-cloud/common > retry-request > request > stringstream:
+        patched: '2020-02-06T01:48:25.762Z'
+    - firebase-admin > @google-cloud/firestore > @google-cloud/common > log-driver > codecov.io > request > stringstream:
+        patched: '2020-02-06T01:48:25.762Z'
+    - firebase-admin > @google-cloud/storage > gcs-resumable-upload > google-auto-auth > gcp-metadata > retry-request > request > stringstream:
+        patched: '2020-02-06T01:48:25.762Z'
+    - firebase-admin > @google-cloud/firestore > @google-cloud/common > google-auto-auth > gcp-metadata > retry-request > request > stringstream:
+        patched: '2020-02-06T01:48:25.762Z'
+    - firebase-admin > @google-cloud/storage > @google-cloud/common > google-auto-auth > gcp-metadata > retry-request > request > stringstream:
+        patched: '2020-02-06T01:48:25.762Z'
+    - firebase-admin > @google-cloud/firestore > @google-cloud/common > google-auto-auth > google-auth-library > gtoken > request > stringstream:
+        patched: '2020-02-06T01:48:25.762Z'
+    - firebase-admin > @google-cloud/storage > @google-cloud/common > google-auto-auth > google-auth-library > gtoken > request > stringstream:
+        patched: '2020-02-06T01:48:25.762Z'
+    - firebase-admin > @google-cloud/firestore > google-gax > google-auto-auth > gcp-metadata > retry-request > request > stringstream:
+        patched: '2020-02-06T01:48:25.762Z'
+    - firebase-admin > @google-cloud/firestore > google-gax > google-auto-auth > google-auth-library > gtoken > request > stringstream:
+        patched: '2020-02-06T01:48:25.762Z'
+    - firebase-admin > @google-cloud/storage > gcs-resumable-upload > google-auto-auth > google-auth-library > gtoken > request > stringstream:
+        patched: '2020-02-06T01:48:25.762Z'
+    - firebase-admin > @google-cloud/firestore > @google-cloud/common-grpc > @google-cloud/common > google-auto-auth > google-auth-library > request > stringstream:
+        patched: '2020-02-06T01:48:25.762Z'
+    - firebase-admin > @google-cloud/firestore > @google-cloud/common-grpc > @google-cloud/common > google-auto-auth > google-auth-library > gtoken > request > stringstream:
+        patched: '2020-02-06T01:48:25.762Z'
+    - firebase-admin > @google-cloud/firestore > @google-cloud/common-grpc > @google-cloud/common > google-auto-auth > gcp-metadata > retry-request > request > stringstream:
+        patched: '2020-02-06T01:48:25.762Z'
+  'npm:tunnel-agent:20170305':
+    - firebase-admin > @google-cloud/firestore > @google-cloud/common > log-driver > codecov.io > request > tunnel-agent:
+        patched: '2020-02-06T01:48:25.762Z'
+    - firebase-admin > @google-cloud/storage > @google-cloud/common > log-driver > codecov.io > request > tunnel-agent:
+        patched: '2020-02-06T01:48:25.762Z'
